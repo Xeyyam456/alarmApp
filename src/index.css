@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a8dd17;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #913e3e;
+}
+body{
+    min-height: 800px;
+    /* min-width: 1000px; */
+}
+
+.main-m{
+    transform: translateY(240px);
+    max-width: 840px;
+    margin-left: -350px;
+    width: 700px;
+    max-height: 500px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    border-radius: 10px;
+    margin: auto -350px;
+}
